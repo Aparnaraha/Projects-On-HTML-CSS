@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ccc;
+}
+
+.container{
+  max-width: 900px;
+  margin: 50px;
+  font-size: 20px;
+  
+
+}
+.apply{
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 4px 3px 5px black;
+  border-radius: 10px;
+}
+.form{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap:5px;
+  margin: 15px;
+
+  
+}
+
+label{
+  font-size: 18px;
+
+}
+.button button{
+  background-color: rgb(247, 71, 7);
+  border-radius: px;
+margin: 10px; 
+margin-left:400px ;
+
+}
