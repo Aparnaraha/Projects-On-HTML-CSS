@@ -1,0 +1,41 @@
+.parallex{
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  font-weight: 1000;
+  
+}
+.parallex:nth-child(1){
+background-image: url(../images/gannu2.png);
+
+}
+
+.parallex:nth-child(2){
+background-image:url(../images/gannu1.png);
+
+}
+
+.parallex:nth-child(3){
+background-image:url(../images/shiv.png);
+}
+
+h1,p{
+  color:aliceblue;
+}
+.content h1{
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 8px;
+
+background-color:gray}
+
+.content p{
+  text-align: center;
+  font-size: 20px;
+}
