@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+ul{
+  list-style:none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header{
+  background-color: #281154;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 5px 5px 5px gray;
+  
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  color: wheat;
+  align-items: center;
+  padding: 20px;
+}
+.logo{
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 20px;
+
+}
+
+button{
+  padding: 10px 15px;
+  border: none;
+  transition: 0.4s ease-in-out;
+}
+button:hover{
+  opacity: 0.8;
+  transition: 0.4 ease-in-out;
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li{
+  border-bottom: 3px solid transparent;
+}
+nav ul li:hover{
+border-bottom: 3px solid white;
+
+}
+.hero-section{
+  background-image: url(../project-6/images/gannu1.png);
+  height: 100vh;
+  display: grid;
+  color: white;
+  place-items: center;
+  text-align: center;
+  
+}
+.hero-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero-section h1 {
+  font-size: 96px;
+}
+.hero-section h3{
+
+  font-size: 32px;
+}
+.music-section{
+  padding-top: 50px;
+  background-color: #270082;
+}
+.music-section .container{
+  display: flex;
+  flex-direction: column;
+gap: 30px;
+justify-content: center;
+align-items: center;
+}
+.ipad-iphone-img{ 
+  position: relative;
+  top: 400px;
+
+}
+.primary-btn{
+  background-color: red;
+  color: white;
+}
+.secondary-btn{
+  background-color: purple;
+  color: aliceblue;
+}
+.about-music{
+  padding-top: 500px;
+  display: grid;
+  place-items: center;
+  gap: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+.video-section{
+  background-image: url(../project-6/images/gannu1.png);
+  min-height: 800px;
+  place-items: center;
+  color: white;
+  text-align: center;
+  display: grid;
+}
+.video-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -200px;
+}
+.gift-section{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+}
+.gift-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-upper{
+  background-color: #281154;
+  padding: 20px;
+}
+.footer-upper .container {
+  display: flex;
+  color: rgb(239, 238, 238);
+  justify-content: space-between;
+
+}
+.footer-upper h4{
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+ margin-bottom: 30px;
+}
+.footer-lower{
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+
