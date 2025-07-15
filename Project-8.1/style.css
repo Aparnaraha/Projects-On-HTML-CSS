@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  background-color: linen;
+}
+a{
+  text-decoration: none;
+}
+body{
+  display: flex;
+}
+header{
+  border: 1px solid #ccc;
+  height: 100vh;
+}
+nav h1{
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 4px solid #ccc;
+  
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  border-bottom: 3px solid #ccc;
+  padding: 10px;
+  color: black;
+  font-size: 18px;
+}
+nav ul li:hover{
+  background: #ccc;
+  transition: 0.3s ease-in-out;
+ 
+}
+/* main section */
+
+main{
+  padding: 50px;
+  max-width: 1200px;
+}
+section{
+  margin-bottom: 50px;
+}
+section article{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section h2{
+  font-size: 25px;
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+font-weight: 400px;
+}
+section article ul{
+  margin-left: 30px;
+}
+section article li{
+  margin-bottom: 13px;
+  font-size: 19px;
+}
+code{
+  white-space: pre-line;
+  line-height: 2;
+  background: gray;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  align-items: center;
+  ;
+}
+
+  @media (max-width: 480px) {
+body{
+  flex-direction: column;
+}
+header{
+  height: 200px;
+  overflow: hidden;
+}
+
+  }
+
+  section article p{
+    font-size: 20px;
+  }
